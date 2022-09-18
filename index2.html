@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+   <link rel="stylesheet" href="projeto.css">
+
+</head>
+<body>
+    <div class="campo">
+        <h1 id="titulo">Cadastro</h1>
+        <p id="subtitulo">Complete suas informações</p>
+    </div >
+    <form>
+        <fieldset class="grupo">
+            <div>
+                <label for="Nome">Nome</label> 
+                <input type="text" name="Nome" id="Nome" required> 
+            </div>
+            <div class="campo">
+                <label for="Sobrenome">Sobrenome</label>
+                <input type="text" name="Sobrenome" id="Sobrenome" required>
+            </div>
+        </fieldset>
+        <div>
+            <label for="Email"></label>
+            <input type="Email" name="Email" id="Email" required> 
+        </div>
+        <div class="campo">
+            <label>De qual lado você desenvolve?</label>
+            <label>
+               <input type="radio" name="devweb" value="frontend">Front-end
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="backend">Back-end
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="fullstack">Fullstack 
+            </label>
+            <label>Senioridade</label>
+            <select id="Senioridade">
+             <option select disablend value="">Selecione</option>
+            <option >Junior</option>
+            <option >Pleno</option>
+            <option >Senior</option>
+        </select>
+        </div>
+
+    <fieldsest class="grupo">
+            <div id="check">
+                <label >Selecione as tecnologias utilizadas</label>
+                <input type="checkbox" id="tecnologia1" value="HTML">
+                 <label >HTML</label>
+                 <input type="checkbox" id="tecnologia2" value="CSS">
+                 <label >CSS</label>
+                 <input type="checkbox" id="tecnologia3" value="Python">
+                 <label >Python</label>
+                 <input type="checkbox" id="tecnologia4" value="JavaScript">
+                 <label >JavaScript</label>
+                 <input type="checkbox" id="tecnologia5" value="C#">
+                 <LABEL>C#</LABEL>
+                 <input type="checkbox" id="tecnologia6" value="Java">
+                 <label >Java</label>
+                 <input type="checkbox" id="tecnologia7" value="PHP">
+                 <label >PHP</label>
+            </div>
+            <div>
+            <br>
+            <label >Descrição</label>
+            <textarea rows="6" style= "width: 26em" id="Descrição" name="Descrição"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+       
+            
+
+    </form>
+    <li>
+        <a href="https://www.instagram.com/_nmelim_/">Clique aqui para ver o Perfil de Nicolas Melim </a>
+    </li>
+    
+</body>
+</html> 
